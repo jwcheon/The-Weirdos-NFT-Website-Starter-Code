@@ -1,3 +1,21 @@
+## Keeping track
+1. Basic starter settings
+- Wrap App in index.js with BrowserRouter (react-router-dom)
+- Import 'normalize.css' into index.js to remove default css
+- Create GlobalStyles.js for font & margin defaults > pass in as a component in App.js
+- Themes.js for light/dark mode > ThemeProvider with styled-components in App.js
+- Create basic sections & footer, navigation > load them as components in App.js
+
+2. Navigation
+- Section > Navbar > Menu > MenuItem
+- Create Logo.js with the prepared font + Link
+- 'list-style: none' on ul to remove dot from li
+- Use '&::after' on MenuItem to create a underline transition on hover(&:hover::after)
+- Create Button.js component and pass in attrs 'text' & 'link' for reusability
+- (didn't exactly understand how the button ring transition trick works...)
+
+
+
 # How to Create NFT Collection Landing Page in React JS
 
 This repository contains starter code for NFT Collection Website in ReactJS. <br />
