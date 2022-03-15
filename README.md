@@ -1,18 +1,29 @@
-## Keeping track
-1. Basic starter settings
+### Keeping track
+✅ : Good stuff reminder
+💡 : Learned new tricks
+😢 : Didn't quite get yet
+
+## 1. Basic starter settings
 - Wrap App in index.js with BrowserRouter (react-router-dom)
 - Import 'normalize.css' into index.js to remove default css
 - Create GlobalStyles.js for font & margin defaults > pass in as a component in App.js
-- Themes.js for light/dark mode > ThemeProvider with styled-components in App.js
+- ✅ Themes.js for light/dark mode > ThemeProvider with styled-components in App.js
 - Create basic sections & footer, navigation > load them as components in App.js
 
-2. Navigation
+## 2. Navigation
 - Section > Navbar > Menu > MenuItem
 - Create Logo.js with the prepared font + Link
-- 'list-style: none' on ul to remove dot from li
-- Use '&::after' on MenuItem to create a underline transition on hover(&:hover::after)
-- Create Button.js component and pass in attrs 'text' & 'link' for reusability
-- (didn't exactly understand how the button ring transition trick works...)
+- 💡 'list-style: none' on ul to remove dot from li
+- 💡 Use '&::after' on MenuItem to create a underline transition on hover(&:hover::after)
+- ✅ Create Button.js component and pass in attrs 'text' & 'link' for reusability
+- 😢 (didn't exactly understand how the button ring transition trick works...)
+
+## 3. Home Section
+- 💡 Give 'min-height' to Home Section with calc(100vh - navSection)
+- 💡 Section Layout Pattern (Section > Container): 1) Section: width 100vw & min-height/height of 100vh / 2) Container: ex. width 75% & min-height 80vh & margin 0 auto
+- Include the round cycling loop component with position absolute.
+- Create inner circle with a span & hexcode, w/ a positioning trick: 😢 top: 50%; left: 50%; transform: translate(-50%, -50%);
+
 
 
 
