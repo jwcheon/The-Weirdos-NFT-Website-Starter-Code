@@ -21,8 +21,13 @@
 ## 3. Home Section
 - 💡 Give 'min-height' to Home Section with calc(100vh - navSection)
 - 💡 Section Layout Pattern (Section > Container): 1) Section: width 100vw & min-height/height of 100vh / 2) Container: ex. width 75% & min-height 80vh & margin 0 auto
-- Include the round cycling loop component with position absolute.
+- Include the round cycling loop component with position absolute
 - Create inner circle with a span & hexcode, w/ a positioning trick: 😢 top: 50%; left: 50%; transform: translate(-50%, -50%);
+
+## 4. About Section
+- Same Section>Container>Box pattern
+- 💡 Build Carousel w/ 'Swiper' (import { EffectCards, Pagination, Navigation, Autoplay } from "swiper";)
+- 
 
 
 
